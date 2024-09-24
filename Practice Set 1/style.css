@@ -1,3 +1,11 @@
 #box{
     background-color: aqua;
 }
+
+.heading{
+    color: red;
+}
+
+/* h1,h2,h3{
+    color:red;
+} this is also a correct method by using , .*/
