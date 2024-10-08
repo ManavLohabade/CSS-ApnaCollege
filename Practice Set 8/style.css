@@ -1,10 +1,17 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
 .loader{
     height: 200px;
     width: 200px;
     border-radius: 50%;
     border: 20px solid #629584;
     border-left: 20px solid #E2F1E7;
-    animation: spinAnimate 2s steps(100) 0s infinite normal;
+    animation: spinAnimate 1s linear infinite;
 }
 @keyframes spinAnimate {
     from{
